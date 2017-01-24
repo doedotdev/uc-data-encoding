@@ -4,6 +4,8 @@ package com.company;
  * Created by benjamin.horn on 1/23/17.
  */
 
+// read chapter 2 and chapter 5
+
 
 // PolynomialsB.java CS6025 Cheng 2017
 // Outputs primitive elements of GF(2^n) with different irreducibles
@@ -32,13 +34,17 @@ public class PolynomialsB{
     void findPrimitiveElements(int irreducible){
         // Currently this function prints orders of all elements from 2 to 255
         // You need to modify it so only primitive elements smaller than 10 are printed.
+        System.out.println(irreducible + " - Irreducible/polynomials");
         for (int i = 2; i < 10; i++){
             int power = i;
-            int j = 2; for (; j < fieldSize; j++){
+            int j;
+            for (j = 2; j < fieldSize; j++) {
                 power = modMultiply(i, power, irreducible);
                 if (power == 1) break;
             }
-            if (j < fieldSize) System.out.println(i + " " + j);
+            if (j == fieldSize - 1){
+                System.out.println(i + " - " + j);
+            }
         }
     }
 

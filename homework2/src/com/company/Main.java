@@ -1,12 +1,12 @@
 package com.company;
 import java.io.*;
 
-public class Main extends PolynomialsA{
+public class Main extends PolynomialsB{
 
     public static void main(String[] args) {
 	// write your code here
-    PolynomialsA object = new PolynomialsA();
-    object.irreducibles();
+    PolynomialsB object = new PolynomialsB();
+    object.main(args);
 
 
     }
