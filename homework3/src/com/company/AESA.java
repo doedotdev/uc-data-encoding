@@ -6,6 +6,9 @@ package com.company;
 // AESA.java CS6025 Cheng 2017
 // Implementing AES encryption
 // Usage: java AESA key < original > encrypted
+// AESA.java CS6025 Cheng 2017
+// Implementing AES encryption
+// Usage: java AESA key < original > encrypted
 
 import java.io.*;
 import java.util.*;
@@ -86,6 +89,7 @@ public class AESA{
     int readBlock(){
         byte[] data = new byte[blockSize];
         int len = 0;
+        System.out.print(System.lineSeparator() + "Encrypt: ");
         try {
             len = System.in.read(data);
         } catch (IOException e){
@@ -98,6 +102,7 @@ public class AESA{
             else state[i] = data[i];
         }
         for (int i = len; i < blockSize; i++) state[i] = 0;
+        System.out.println();
         return len;
     }
 
