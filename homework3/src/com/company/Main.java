@@ -1,9 +1,10 @@
 package com.company;
 
-public class Main extends AESA {
+
+public class Main extends AESB {
 
     public static void main(String[] args) {
-        AESA object = new AESA();
+        AESB object = new AESB();
         String[] args2= {"stallingskey.txt"};
 
         object.main(args2);

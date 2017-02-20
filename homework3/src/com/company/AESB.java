@@ -1,11 +1,8 @@
 package com.company;
 
-/**
- * Created by benjamin.horn on 1/30/17.
- */
-// AESB.java CS5125/6025 Cheng 2017
-// Implementing AES decryption
-// Usage: java AESB key < encrypted > original
+
+
+
 
 import java.io.*;
 import java.util.*;
@@ -109,7 +106,12 @@ public class AESB{
     }
 
     void inverseShiftRows(){
-        // your code here
+        int temp = state[2]; state[2] = state[10]; state[10] = temp;
+        temp = state[6]; state[6] = state[14]; state[14] = temp;
+        temp = state[13]; state[13] = state[9]; state[9] = state[5];
+        state[5] = state[1]; state[1] = temp;
+        temp = state[7]; state[7] = state[11]; state[11] = state[15];
+        state[15] = state[3]; state[3] = temp;
     }
 
     void inverseMixColumns(){
@@ -154,8 +156,8 @@ public class AESB{
     }
 
     void inverseAddRoundKey(int round){
-        //for (int k = 0; k < blockSize; k++)
-        //    state[k] ^= roundKey[?][k]; //THIS LINE
+        for (int k = 0; k < blockSize; k++)
+            state[k] ^= roundKey[numberOfRounds - round - 1][k];
         // round 0 in decoder uses roundKey[numberOfRounds - 1]
         // round 1 in decoder uses roundKey[numberOfRounds - 2]
         // ... round 10 uses roundKey[0]
