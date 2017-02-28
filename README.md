@@ -13,22 +13,20 @@ Working on a prime building application.
 
 <h3>Table Mod N</h3>
 ```
-
 addition table mod 3
-+ 0 1
-0 0 1
-1 1 0
-
++ 0 1 2
+0 0 1 2
+1 1 2 0
+2 2 0 1
 multiplication table mod 3
-x 0 1
-0 0 0
-1 0 1
-
+x 0 1 2
+0 0 0 0
+1 0 1 2
+2 0 2 1
 power table mod 3
-x 0 1
-0 0 0
-1 0 1
-
+^ 2
+1 1
+2 1
 ```
 <a href="https://github.com/hornbd96/dataEncoding/blob/master/dataEncoding/src/kit/table.java">isPrime - Implementation</a>
 <br>
