@@ -45,3 +45,16 @@ How?
 <br>
 <a href="https://github.com/hornbd96/dataEncoding/blob/master/dataEncoding/test/kit/EulerTotientTest.java">Euclid GCD (Located in my Algorithms repo) - Link</a>
 <br>
+
+• The least positive exponent m for which a
+m = 1 (mod n) is the order of
+a (mod n)
+
+<h3>Order</h3>
+```
+The least positive exponent m for which a^(m) = 1 (mod n) is the order of a (mod n).
+```
+<a href="https://github.com/hornbd96/dataEncoding/blob/master/dataEncoding/src/kit/eulerTotient.java">Euler Totient - Implementation</a>
+<br>
+<a href="https://github.com/hornbd96/dataEncoding/blob/master/dataEncoding/test/kit/EulerTotientTest.java">Euler Totient - Unit Tests</a>
+<br>
