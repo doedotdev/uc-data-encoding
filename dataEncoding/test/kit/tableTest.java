@@ -89,4 +89,13 @@ public class tableTest {
         object.powTable();
     }
 
+    @Test
+    public void printAll() throws Exception {
+        table object = new table();
+        object.setMod(5);
+        object.addTable();
+        object.multTable();
+        object.powTable();
+    }
+
 }
