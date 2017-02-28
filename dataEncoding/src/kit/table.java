@@ -32,7 +32,8 @@ public class table {
         System.out.println();
     }
 
-    public void multTable(int modulus){
+    public void multTable(){
+        int modulus = mod;
         System.out.print("x");
         for (int i = 0; i < modulus; i++) System.out.print(" " + i);
         System.out.println();
@@ -45,5 +46,20 @@ public class table {
         System.out.println();
     }
 
-
+    void powTable(){
+        int modulus = mod;
+        System.out.print("^");
+        for (int i = 2; i < modulus; i++) System.out.print(" " + i);
+        System.out.println();
+        for (int i = 1; i < modulus; i++){
+            int power = i;
+            System.out.print(i);
+            for (int j = 2; j < modulus; j++){
+                power = (power * i) % modulus;
+                System.out.print(" " + power);
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
 }

@@ -47,4 +47,46 @@ public class tableTest {
         object.addTable();
     }
 
+    @Test
+    public void multTable1() throws Exception {
+        table object = new table();
+        object.setMod(2);
+        object.multTable();
+    }
+
+    @Test
+    public void multTable2() throws Exception {
+        table object = new table();
+        object.setMod(10);
+        object.multTable();
+    }
+
+    @Test
+    public void multTable3() throws Exception {
+        table object = new table();
+        object.setMod(50);
+        object.multTable();
+    }
+
+    @Test
+    public void powTable1() throws Exception {
+        table object = new table();
+        object.setMod(3);
+        object.powTable();
+    }
+
+    @Test
+    public void powTable2() throws Exception {
+        table object = new table();
+        object.setMod(10);
+        object.powTable();
+    }
+
+    @Test
+    public void powTable3() throws Exception {
+        table object = new table();
+        object.setMod(50);
+        object.powTable();
+    }
+
 }
