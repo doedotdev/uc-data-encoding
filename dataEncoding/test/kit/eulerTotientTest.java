@@ -42,4 +42,11 @@ public class eulerTotientTest {
         object.setValue(1000);
         assertEquals(object.getTotient_number(), 400);
     }
+
+    @Test
+    public void tot6() throws Exception {
+        eulerTotient object = new eulerTotient();
+        object.setValue(5);
+        assertEquals(object.getTotient_number(), 4);
+    }
 }

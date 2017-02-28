@@ -30,12 +30,15 @@ public class eulerTotient {
             return 0;
         }
         totient_number = 1;
+        System.out.print("[ 1 ");
         for(int i = 2; i < in_value; i++){
             if(euclidGCD(i,in_value) == 1){
+                System.out.print(i + " ");
                 totient_number ++;
             }
         }
-
+        System.out.print("]");
+        System.out.println();
         return totient_number;
     }
 
