@@ -28,7 +28,7 @@ power table mod 3
 1 1
 2 1
 ```
-<a href="https://github.com/hornbd96/dataEncoding/blob/master/dataEncoding/src/kit/table.java">isPrime - Implementation</a>
+<a href="https://github.com/hornbd96/dataEncoding/blob/master/dataEncoding/src/kit/table.java">Modulo Table - Implementation</a>
 <br>
-<a href="https://github.com/hornbd96/dataEncoding/blob/master/dataEncoding/test/kit/tableTest.java">isPrime - Unit Tests</a>
+<a href="https://github.com/hornbd96/dataEncoding/blob/master/dataEncoding/test/kit/tableTest.java">Modulo Table - Unit Tests</a>
 <br>
