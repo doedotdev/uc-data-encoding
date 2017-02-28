@@ -33,12 +33,15 @@ power table mod 3
 <a href="https://github.com/hornbd96/dataEncoding/blob/master/dataEncoding/test/kit/tableTest.java">Modulo Table - Unit Tests</a>
 <br>
 
-<h3>Euclidean Algorithm</h3>
+<h3>Euler Totient Number</h3>
 ```
-The trivial prime checker vs a fast prime checker.
-Working on a prime building application.
+Returns euler totient.
+How?
+2 numbers are relatively prime if their GCD is 1!
 ```
-<a href="https://github.com/hornbd96/dataEncoding/blob/master/dataEncoding/src/kit/prime.java">isPrime - Implementation</a>
+<a href="https://github.com/hornbd96/dataEncoding/blob/master/dataEncoding/src/kit/eulerTotient.java">Euler Totient - Implementation</a>
 <br>
-<a href="https://github.com/hornbd96/dataEncoding/blob/master/dataEncoding/test/kit/primeTest.java">isPrime - Unit Tests</a>
+<a href="https://github.com/hornbd96/dataEncoding/blob/master/dataEncoding/test/kit/EulerTotientTest.java">Euler Totient - Unit Tests</a>
+<br>
+<a href="https://github.com/hornbd96/dataEncoding/blob/master/dataEncoding/test/kit/EulerTotientTest.java">Euclid GCD (Located in my Algorithms repo) - Link</a>
 <br>
