@@ -1,7 +1,7 @@
 # dataEncoding
 Data Encoding Things
 
-<h3>Prime Numbers</h3>
+### Prime Numbers
 ```
 The trivial prime checker vs a fast prime checker.
 Working on a prime building application.
@@ -11,7 +11,7 @@ Working on a prime building application.
 <a href="https://github.com/hornbd96/dataEncoding/blob/master/dataEncoding/test/kit/primeTest.java">isPrime - Unit Tests</a>
 <br>
 
-<h3>Table Mod N</h3>
+### Table Mod N
 ```
 addition table mod 3
 + 0 1 2
@@ -33,7 +33,7 @@ power table mod 3
 <a href="https://github.com/hornbd96/dataEncoding/blob/master/dataEncoding/test/kit/tableTest.java">Modulo Table - Unit Tests</a>
 <br>
 
-<h3>Euler Totient Number</h3>
+### Euler Totient Number</h3>
 ```
 Returns euler totient.
 How?
@@ -50,7 +50,7 @@ How?
 m = 1 (mod n) is the order of
 a (mod n)
 
-<h3>Order</h3>
+### Order
 ```
 The least positive exponent m for which a^(m) = 1 (mod n) is the order of a (mod n).
 ```
