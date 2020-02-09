@@ -1,5 +1,5 @@
-# dataEncoding
-Data Encoding Things
+# uc-data-encoding
+University of Cincinnati - Data Encoding
 
 ### Prime Numbers
 ```
